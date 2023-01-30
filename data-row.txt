@@ -1,0 +1,35 @@
+Table Name: Cars
+
+id                          INT     - MEDIUMINT     - PRIMARY_KEY
+brand                       STRING  - VARCHAR(15)   - NOTNULL
+model                       STRING  - VARCHAR(15)   - NOTNULL
+model_year                  DATE    - YEAR          - NOTNULL
+production_year             DATE    - YEAR          - NOTNULL
+color                       STRING  - VARCHAR(30)   - NULL
+transmission_type           STRING  - VARCHAR(30)   - NULL
+seats                       INT     - TINYINT       - NULL
+doors                       INT     - TINYINT       - NULL
+weight                      FLOAT   - FLOAT(3,1)    - NULL
+tank_capacity               INT     - TINYINT       - NULL
+length                      FLOAT   - FLOAT(3,1)    - NULL
+width                       FLOAT   - FLOAT(2,1)    - NULL
+height                      FLOAT   - FLOAT(2,1)    - NULL
+
+motor_model                 STRING  - VARCHAR(45)   - NOTNULL
+motor_model_code            STRING  - VARCHAR(30)   - NOTNULL
+motor_power                 FLOAT   - FLOAT(4,1)    - NULL
+motor_position              STRING  - VARCHAR(25)   - NULL
+displacement                INT     - SMALLINT      - NOTNULL
+cylinder_number             INT     - TINYINT       - NULL
+cylinder_position           STRING  - VARCHAR(20)   - NULL
+
+urban_expenditure           FLOAT   - FLOAT(3,1)    - NULL
+extra_urban_expenditure     FLOAT   - FLOAT(3,1)    - NULL
+mixed_expenditure           FLOAT   - FLOAT(3,1)    - NULL
+fuel_type                   STRING  - VARCHAR(15)   - NOTNULL
+CO2_emission                INT     - TINYINT       - NULL
+0_100km/h_aceleration       FLOAT   - FLOAT(3,1)    - NULL
+max_speed                   INT     - SMALLINT      - NULL
+max_engine_torque           INT     - SMALLINT      - NULL
+weight_power_ratio          FLOAT   - FLOAT(3,1)    - NULL
+weight_engine_torque_ratio  FLOAT   - FLOAT(3,1)    - NULL
